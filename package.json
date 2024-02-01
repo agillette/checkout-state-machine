@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "parcel-bundler": "^1.6.1",
+    "xstate": "4.38.2"
+  },
+  "devDependencies": {
+    "typescript": "5.3"
+  },
+  "keywords": [
+    "typescript",
+    "javascript"
+  ],
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "scripts": {
+    "build": "parcel build index.html",
+    "start": "parcel index.html --open"
+  }
+}
